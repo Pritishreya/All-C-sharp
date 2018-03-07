@@ -1,0 +1,24 @@
+﻿@model NewInventory.Models.Inventory
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+<table cellspacing="2" cellpadding="2" border="1" align="center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Type</th>
+        <th>Operation</th>
+    </tr>
+    <tr>
+        <th><h1>@Model.ID</h1></th>
+        <th><h1>@Model.name</h1></th>
+        <th><h1>@Model.price</h1></th>
+        <th><h1>@Model.quantity</h1></th>
+        <th><h1>@Model.type</h1></th>
+        <td>@Html.ActionLink("BackToList", "Index")</td>
+    </tr>
+</table>

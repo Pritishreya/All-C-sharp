@@ -1,0 +1,37 @@
+﻿@model NewInventory.ViewModels.HomeIndexViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@Html.ActionLink("Add New Items", "Create")</h1>
+    <h2 align="center">List of Products as below</h2>
+     <table cellpadding="2" cellspacing="2" border="1" align="center">
+         <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Price</th>
+             <th>Quantity</th>
+             <th>Type</th>
+             <th>Operation</th>
+         </tr>
+         @foreach(var item in Model.Inventory)
+         {
+         <tr>
+             <td>@item.ID</td>
+             <td>@item.name</td>
+             <td>@item.price</td>
+             <td>@item.quantity</td>
+             <td>@item.type</td>
+             <td>
+                         @Html.ActionLink("Lists", "Details", new { ID = item.ID }) |
+                         @Html.ActionLink("Update", "Update", new { ID = item.ID }) |
+                         @Html.ActionLink("Delete", "Delete", new { ID = item.ID })
+                     </td>
+         </tr>
+
+         }
+     </table>
+</body>
+</html>

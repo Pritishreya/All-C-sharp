@@ -1,0 +1,11 @@
+c:\users\priti\source\repos\NewInventory\NewInventory\bin\Debug\netcoreapp2.0\NewInventory.deps.json
+c:\users\priti\source\repos\NewInventory\NewInventory\bin\Debug\netcoreapp2.0\NewInventory.runtimeconfig.json
+c:\users\priti\source\repos\NewInventory\NewInventory\bin\Debug\netcoreapp2.0\NewInventory.runtimeconfig.dev.json
+c:\users\priti\source\repos\NewInventory\NewInventory\bin\Debug\netcoreapp2.0\NewInventory.dll
+c:\users\priti\source\repos\NewInventory\NewInventory\bin\Debug\netcoreapp2.0\NewInventory.pdb
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.csprojResolveAssemblyReference.cache
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.csproj.CoreCompileInputs.cache
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.AssemblyInfoInputs.cache
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.AssemblyInfo.cs
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.dll
+c:\users\priti\source\repos\NewInventory\NewInventory\obj\Debug\netcoreapp2.0\NewInventory.pdb
